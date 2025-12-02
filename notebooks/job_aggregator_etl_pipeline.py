@@ -11,7 +11,7 @@ from pyspark.sql import SparkSession
 spark = SparkSession.builder.appName("JobETL_Bronze").getOrCreate()
 
 #defining the API Key
-API_KEY = "389429d5e4ce6553514c445f10f6ade53b4e34031a4c1c88f802ab97d22455be"
+API_KEY = "ENTER SERP API KEY"
 roles = ["Data Engineer", "Python Developer", "ETL Developer", "Spark Engineer", "Data Analyst"]
 location = "India"
 all_jobs = []
